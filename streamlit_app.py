@@ -13,9 +13,9 @@ st.sidebar.header("Filter Options")
 
 # Sidebar selections (updated to match new filenames)
 prompt_id = st.sidebar.selectbox("Prompt Variant", ["zero_simple", "zero_cot", "zero_cot_consistent", "fewshot_custom"], index=0)
-version = st.sidebar.selectbox("Version", ["v9", "v8", "v7", "v6"], index=0)
+version = st.sidebar.selectbox("Version", ["v1", "v2"], index=0)
 input_mode = st.sidebar.selectbox("Input Mode", ["image", "stroke"], index=0)
-step = st.sidebar.selectbox("Step", [50, 100, 200], index=2)
+step = st.sidebar.selectbox("Step", [100, 200], index=2)
 
 # New CSV filename structure (with prompt_id included)
 csv_file = f"{prompt_id}_{input_mode}_{version}_step{step}.csv"
