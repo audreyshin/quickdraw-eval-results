@@ -4,16 +4,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import json
 from PIL import Image, ImageDraw
-import pickle
-import requests
-
-@st.cache_data
-def load_stroke_data():
-    url = "https://github.com/audreyshin/quickdraw-eval-results/raw/main/strokes_stroke_data_lookup.pkl"
-    strokes = pickle.loads(requests.get(url).content)
-    return strokes
-
-stroke_lookup = load_stroke_data()
 
 
 st.set_page_config(layout="wide")
