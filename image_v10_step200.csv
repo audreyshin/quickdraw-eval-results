@@ -1,0 +1,15 @@
+index,drawing_id,countrycode,category,prompt_id,input_mode,gpt_model,prediction,normalized_prediction,is_correct,match_reason,timestamp
+0,5152802093400064,US,airplane,zero_simple,image,gpt-4o,airplane,airplane,True,exact,2025-08-04T15:47:22.934915
+1,4700595321569280,US,baseball bat,zero_simple,image,gpt-4o,exclamation mark,exclamation mark,False,none,2025-08-04T15:47:25.219552
+2,4835770021969920,RU,bucket,zero_simple,image,gpt-4o,cowboy hat,cowboy hat,False,none,2025-08-04T15:47:25.960739
+3,4746105067667456,US,cloud,zero_simple,image,gpt-4o,cloud,cloud,True,exact,2025-08-04T15:47:26.986032
+4,6708848645636096,US,envelope,zero_simple,image,gpt-4o,envelope,envelope,True,exact,2025-08-04T15:47:27.860651
+5,6384088971739136,AE,hammer,zero_simple,image,gpt-4o,hammer,hammer,True,exact,2025-08-04T15:47:28.669257
+6,5132624739696640,US,knife,zero_simple,image,gpt-4o,raised fist,raised fist,False,none,2025-08-04T15:47:29.329256
+7,4785293959888896,US,mountain,zero_simple,image,gpt-4o,line graph,line graph,False,none,2025-08-04T15:47:30.546115
+8,6425433853657088,CA,pants,zero_simple,image,gpt-4o,elbow,elbow,False,none,2025-08-04T15:47:31.563490
+9,6038473456746496,US,postcard,zero_simple,image,gpt-4o,envelope,envelope,False,none,2025-08-04T15:47:32.007838
+10,4633601083703296,US,shoe,zero_simple,image,gpt-4o,airplane tail,airplane tail,False,none,2025-08-04T15:47:32.691897
+11,5500252800942080,GB,square,zero_simple,image,gpt-4o,bucket,bucket,False,none,2025-08-04T15:47:33.319072
+12,6107946884792320,US,tent,zero_simple,image,gpt-4o,tent,tent,True,exact,2025-08-04T15:47:34.194761
+13,5263944287518720,GB,vase,zero_simple,image,gpt-4o,vase with flower,vase with flower,True,phrase,2025-08-04T15:47:36.378884
