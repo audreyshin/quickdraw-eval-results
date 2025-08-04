@@ -3,5 +3,3 @@ pandas
 matplotlib
 numpy
 Pillow
-Pickle
-requests
