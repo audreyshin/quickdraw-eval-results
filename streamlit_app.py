@@ -4,6 +4,17 @@ import matplotlib.pyplot as plt
 import numpy as np
 import json
 from PIL import Image, ImageDraw
+import pickle
+import requests
+
+@st.cache_data
+def load_stroke_data():
+    url = "https://github.com/audreyshin/quickdraw-eval-results/raw/main/strokes_stroke_data_lookup.pkl"
+    strokes = pickle.loads(requests.get(url).content)
+    return strokes
+
+stroke_lookup = load_stroke_data()
+
 
 st.set_page_config(layout="wide")
 st.title("QuickDraw GPT-4o Evaluation Results")
@@ -15,7 +26,7 @@ st.sidebar.header("Filter Options")
 prompt_id = st.sidebar.selectbox("Prompt Variant", ["zero_simple", "zero_cot", "zero_cot_consistent", "fewshot_custom"], index=0)
 version = st.sidebar.selectbox("Version", ["v1", "v2"], index=0)
 input_mode = st.sidebar.selectbox("Input Mode", ["image", "stroke"], index=0)
-step = st.sidebar.selectbox("Step", [100, 200], index=1)
+step = st.sidebar.selectbox("Step", [100, 200], index=0)
 
 # New CSV filename structure (with prompt_id included)
 csv_file = f"{prompt_id}_{input_mode}_{version}_step{step}.csv"
@@ -84,9 +95,8 @@ else:
     st.write(f"**Country:** {selected_data['countrycode']}")
     st.write(f"**Timestamp:** {selected_data['timestamp']}")
 
-    # Render image from stroke data if available
-    if "raw_stroke" in selected_data:
-        stroke_data = json.loads(selected_data["raw_stroke"])
+    if selected_data["drawing_id"] in stroke_lookup:
+        stroke_data = stroke_lookup[selected_data["drawing_id"]]
 
         def render_drawing_to_image(drawing, image_size=256, line_width=3):
             img = Image.new("L", (image_size, image_size), color=255)
@@ -100,4 +110,5 @@ else:
         img = render_drawing_to_image(stroke_data)
         st.image(img, caption=f"True: {selected_data['category']} | Predicted: {selected_data['prediction']}")
     else:
-        st.info("No stroke data available for rendering image.")
+        st.info("No stroke data found for this drawing_id.")
+
