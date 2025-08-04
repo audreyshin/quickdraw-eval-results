@@ -1,0 +1,29 @@
+index,drawing_id,countrycode,category,prompt_id,input_mode,gpt_model,prediction,normalized_prediction,is_correct,match_reason,timestamp
+0,5152802093400064,US,airplane,zero_wordbank,image,gpt-4o,airplane,airplane,True,exact,2025-08-04T16:42:24.474022
+1,5344373355053056,KR,axe,zero_wordbank,image,gpt-4o,axe,axe,True,exact,2025-08-04T16:42:25.048284
+2,4700595321569280,US,baseball bat,zero_wordbank,image,gpt-4o,leg,leg,False,none,2025-08-04T16:42:26.155772
+3,6181511223050240,US,book,zero_wordbank,image,gpt-4o,book,book,True,exact,2025-08-04T16:42:26.688276
+4,4835770021969920,RU,bucket,zero_wordbank,image,gpt-4o,"this drawing looks like a hat. however, since",this drawing looks like a hat however since,False,none,2025-08-04T16:42:30.332441
+5,5201136883597312,VE,cat,zero_wordbank,image,gpt-4o,this drawing is labeled as: **cat**,this drawing is labeled as cat,True,phrase,2025-08-04T16:42:32.659561
+6,4746105067667456,US,cloud,zero_wordbank,image,gpt-4o,cloud,cloud,True,exact,2025-08-04T16:42:33.263262
+7,6444383903678464,US,diamond,zero_wordbank,image,gpt-4o,"this drawing looks like an ""anvil.""",this drawing looks like an anvil,False,none,2025-08-04T16:42:34.205174
+8,6708848645636096,US,envelope,zero_wordbank,image,gpt-4o,envelope,envelope,True,exact,2025-08-04T16:42:35.028951
+9,5647081626664960,US,finger,zero_wordbank,image,gpt-4o,the drawing is labeled as: hand,the drawing is labeled as hand,False,none,2025-08-04T16:42:36.096761
+10,6384088971739136,AE,hammer,zero_wordbank,image,gpt-4o,axe,axe,False,none,2025-08-04T16:42:36.601530
+11,6635661295616000,SV,hot dog,zero_wordbank,image,gpt-4o,hot dog,hot dog,True,exact,2025-08-04T16:42:37.313524
+12,5132624739696640,US,knife,zero_wordbank,image,gpt-4o,"this drawing is labeled as ""arm.""",this drawing is labeled as arm,False,none,2025-08-04T16:42:38.632721
+13,4999702888054784,US,light bulb,zero_wordbank,image,gpt-4o,"this drawing looks like a ""mushroom.""",this drawing looks like a mushroom,False,none,2025-08-04T16:42:39.795037
+14,4785293959888896,US,mountain,zero_wordbank,image,gpt-4o,zigzag,zigzag,False,none,2025-08-04T16:42:40.368989
+15,6094501456117760,AU,nose,zero_wordbank,image,gpt-4o,"this drawing looks like a ""nose.""",this drawing looks like a nose,True,phrase,2025-08-04T16:42:41.273148
+16,6425433853657088,CA,pants,zero_wordbank,image,gpt-4o,arm,arm,False,none,2025-08-04T16:42:41.906380
+17,6063234429747200,PL,pencil,zero_wordbank,image,gpt-4o,"this drawing is labeled as a ""pencil.""",this drawing is labeled as a pencil,True,phrase,2025-08-04T16:42:42.883489
+18,6038473456746496,US,postcard,zero_wordbank,image,gpt-4o,this drawing looks like a **sailboat**,this drawing looks like a sailboat,False,none,2025-08-04T16:42:44.111480
+19,4773497005932544,US,rainbow,zero_wordbank,image,gpt-4o,this drawing resembles a **rainbow**.,this drawing resembles a rainbow,True,phrase,2025-08-04T16:42:45.220631
+20,4633601083703296,US,shoe,zero_wordbank,image,gpt-4o,airplane,airplane,False,none,2025-08-04T16:42:45.747245
+21,5821025994407936,US,snake,zero_wordbank,image,gpt-4o,snake,snake,True,exact,2025-08-04T16:42:46.433398
+22,5500252800942080,GB,square,zero_wordbank,image,gpt-4o,bucket,bucket,False,none,2025-08-04T16:42:50.324694
+23,5712076074909696,RU,sun,zero_wordbank,image,gpt-4o,sun,sun,True,exact,2025-08-04T16:42:50.826485
+24,6107946884792320,US,tent,zero_wordbank,image,gpt-4o,tent,tent,True,exact,2025-08-04T16:42:51.621083
+25,4593716037681152,TW,tree,zero_wordbank,image,gpt-4o,"this drawing could be labeled as ""tree.""",this drawing could be labeled as tree,True,phrase,2025-08-04T16:42:53.077502
+26,5263944287518720,GB,vase,zero_wordbank,image,gpt-4o,vase,vase,True,exact,2025-08-04T16:42:54.400811
+27,4846295376199680,US,zigzag,zero_wordbank,image,gpt-4o,zigzag,zigzag,True,exact,2025-08-04T16:42:55.155491
