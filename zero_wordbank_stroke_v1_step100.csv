@@ -1,0 +1,29 @@
+index,drawing_id,countrycode,category,prompt_id,input_mode,gpt_model,prediction,normalized_prediction,is_correct,match_reason,timestamp
+0,5152802093400064,US,airplane,zero_wordbank,stroke,gpt-4o,"the drawing can be labeled as ""horse.""",the drawing can be labeled as horse,False,none,2025-08-04T16:54:02.442848
+1,5344373355053056,KR,axe,zero_wordbank,stroke,gpt-4o,"the drawing can be labeled as a ""lighthouse",the drawing can be labeled as a lighthouse,False,none,2025-08-04T16:54:03.372389
+2,4700595321569280,US,baseball bat,zero_wordbank,stroke,gpt-4o,"the drawing appears to be a ""dolphin",the drawing appears to be a dolphin,False,none,2025-08-04T16:54:04.030777
+3,6181511223050240,US,book,zero_wordbank,stroke,gpt-4o,"the drawing is labeled as ""envelope.""",the drawing is labeled as envelope,False,none,2025-08-04T16:54:04.825344
+4,4835770021969920,RU,bucket,zero_wordbank,stroke,gpt-4o,"the drawing can be labeled as ""airplane"".",the drawing can be labeled as airplane,False,none,2025-08-04T16:54:06.346813
+5,5201136883597312,VE,cat,zero_wordbank,stroke,gpt-4o,"the drawing can be labeled as ""cloud"".",the drawing can be labeled as cloud,False,none,2025-08-04T16:54:07.216963
+6,4746105067667456,US,cloud,zero_wordbank,stroke,gpt-4o,"the drawing appears to be a ""swan"".",the drawing appears to be a swan,False,none,2025-08-04T16:54:07.690999
+7,6444383903678464,US,diamond,zero_wordbank,stroke,gpt-4o,"the drawing appears to be an ""umbrella.""",the drawing appears to be an umbrella,False,none,2025-08-04T16:54:08.302663
+8,6708848645636096,US,envelope,zero_wordbank,stroke,gpt-4o,"the drawing appears to be a ""butterfly",the drawing appears to be a butterfly,False,none,2025-08-04T16:54:08.925555
+9,5647081626664960,US,finger,zero_wordbank,stroke,gpt-4o,"the drawing resembles ""lightning"".",the drawing resembles lightning,False,none,2025-08-04T16:54:09.673458
+10,6384088971739136,AE,hammer,zero_wordbank,stroke,gpt-4o,"the drawing is likely labeled as ""zigzag"".",the drawing is likely labeled as zigzag,False,none,2025-08-04T16:54:11.493915
+11,6635661295616000,SV,hot dog,zero_wordbank,stroke,gpt-4o,"the drawing appears to be an ""airplane.""",the drawing appears to be an airplane,False,none,2025-08-04T16:54:12.199222
+12,5132624739696640,US,knife,zero_wordbank,stroke,gpt-4o,"the drawing can be labeled as ""butterfly",the drawing can be labeled as butterfly,False,none,2025-08-04T16:54:12.947759
+13,4999702888054784,US,light bulb,zero_wordbank,stroke,gpt-4o,"the drawing is labeled as a ""heart"".",the drawing is labeled as a heart,False,none,2025-08-04T16:54:14.009435
+14,4785293959888896,US,mountain,zero_wordbank,stroke,gpt-4o,"the drawing is labeled as ""parachute.""",the drawing is labeled as parachute,False,none,2025-08-04T16:54:14.903769
+15,6094501456117760,AU,nose,zero_wordbank,stroke,gpt-4o,"the drawing can be labeled as ""umbrella"".",the drawing can be labeled as umbrella,False,none,2025-08-04T16:54:15.953743
+16,6425433853657088,CA,pants,zero_wordbank,stroke,gpt-4o,"the drawing can be labeled as ""snake"".",the drawing can be labeled as snake,False,none,2025-08-04T16:54:16.755098
+17,6063234429747200,PL,pencil,zero_wordbank,stroke,gpt-4o,"the drawing can be labeled as ""tree"".",the drawing can be labeled as tree,False,none,2025-08-04T16:54:17.711409
+18,6038473456746496,US,postcard,zero_wordbank,stroke,gpt-4o,"the drawing can be labeled as a ""windmill",the drawing can be labeled as a windmill,False,none,2025-08-04T16:54:18.354070
+19,4773497005932544,US,rainbow,zero_wordbank,stroke,gpt-4o,"the drawing is labeled as ""lightning"".",the drawing is labeled as lightning,False,none,2025-08-04T16:54:19.191662
+20,4633601083703296,US,shoe,zero_wordbank,stroke,gpt-4o,"based on the stroke data provided, the drawing appears",based on the stroke data provided the drawing appear,False,none,2025-08-04T16:54:19.885701
+21,5821025994407936,US,snake,zero_wordbank,stroke,gpt-4o,"the drawing can be labeled as a ""cat.""",the drawing can be labeled as a cat,False,none,2025-08-04T16:54:20.732052
+22,5500252800942080,GB,square,zero_wordbank,stroke,gpt-4o,"the drawing is labeled as ""whale"".",the drawing is labeled as whale,False,none,2025-08-04T16:54:21.573872
+23,5712076074909696,RU,sun,zero_wordbank,stroke,gpt-4o,"the drawing appears to be a ""giraffe",the drawing appears to be a giraffe,False,none,2025-08-04T16:54:22.600565
+24,6107946884792320,US,tent,zero_wordbank,stroke,gpt-4o,"the drawing appears to be a ""ladder"".",the drawing appears to be a ladder,False,none,2025-08-04T16:54:23.436551
+25,4593716037681152,TW,tree,zero_wordbank,stroke,gpt-4o,"the drawing appears to be a ""candle.""",the drawing appears to be a candle,False,none,2025-08-04T16:54:24.978184
+26,5263944287518720,GB,vase,zero_wordbank,stroke,gpt-4o,"the drawing is a ""rocket"".",the drawing is a rocket,False,none,2025-08-04T16:54:25.439255
+27,4846295376199680,US,zigzag,zero_wordbank,stroke,gpt-4o,"the drawing can be labeled as ""roller coaster.""",the drawing can be labeled as roller coaster,False,none,2025-08-04T16:54:26.471028
