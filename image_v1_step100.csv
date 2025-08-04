@@ -1,0 +1,29 @@
+index,drawing_id,countrycode,category,prompt_id,input_mode,gpt_model,prediction,normalized_prediction,is_correct,match_reason,timestamp
+0,5152802093400064,US,airplane,zero_cot,image,gpt-4o,swiss army knife,swiss army knife,False,none,2025-08-04T16:31:39.422183
+1,5344373355053056,KR,axe,zero_cot,image,gpt-4o,axe,axe,True,exact,2025-08-04T16:31:39.906104
+2,4700595321569280,US,baseball bat,zero_cot,image,gpt-4o,exclamation mark,exclamation mark,False,none,2025-08-04T16:31:40.886950
+3,6181511223050240,US,book,zero_cot,image,gpt-4o,book,book,True,exact,2025-08-04T16:31:41.714493
+4,4835770021969920,RU,bucket,zero_cot,image,gpt-4o,cowboy hat,cowboy hat,False,none,2025-08-04T16:31:42.413731
+5,5201136883597312,VE,cat,zero_cot,image,gpt-4o,cat,cat,True,exact,2025-08-04T16:31:43.139332
+6,4746105067667456,US,cloud,zero_cot,image,gpt-4o,cloud,cloud,True,exact,2025-08-04T16:31:44.404220
+7,6444383903678464,US,diamond,zero_cot,image,gpt-4o,toothbrush,toothbrush,False,none,2025-08-04T16:31:45.022953
+8,6708848645636096,US,envelope,zero_cot,image,gpt-4o,envelope,envelope,True,exact,2025-08-04T16:31:45.598255
+9,5647081626664960,US,finger,zero_cot,image,gpt-4o,fingers,finger,True,exact,2025-08-04T16:31:46.119540
+10,6384088971739136,AE,hammer,zero_cot,image,gpt-4o,hammer,hammer,True,exact,2025-08-04T16:31:46.912068
+11,6635661295616000,SV,hot dog,zero_cot,image,gpt-4o,hot dog,hot dog,True,exact,2025-08-04T16:31:47.718501
+12,5132624739696640,US,knife,zero_cot,image,gpt-4o,hairbrush,hairbrush,False,none,2025-08-04T16:31:48.276245
+13,4999702888054784,US,light bulb,zero_cot,image,gpt-4o,mushroom,mushroom,False,none,2025-08-04T16:31:49.430449
+14,4785293959888896,US,mountain,zero_cot,image,gpt-4o,line graph,line graph,False,none,2025-08-04T16:31:50.012355
+15,6094501456117760,AU,nose,zero_cot,image,gpt-4o,vase,vase,False,none,2025-08-04T16:31:50.798846
+16,6425433853657088,CA,pants,zero_cot,image,gpt-4o,elbow,elbow,False,none,2025-08-04T16:31:51.358427
+17,6063234429747200,PL,pencil,zero_cot,image,gpt-4o,pencil,pencil,True,exact,2025-08-04T16:31:51.830815
+18,6038473456746496,US,postcard,zero_cot,image,gpt-4o,envelope,envelope,False,none,2025-08-04T16:31:52.440812
+19,4773497005932544,US,rainbow,zero_cot,image,gpt-4o,rainbow,rainbow,True,exact,2025-08-04T16:31:53.158107
+20,4633601083703296,US,shoe,zero_cot,image,gpt-4o,airplane,airplane,False,none,2025-08-04T16:31:53.917026
+21,5821025994407936,US,snake,zero_cot,image,gpt-4o,snake,snake,True,exact,2025-08-04T16:31:54.760487
+22,5500252800942080,GB,square,zero_cot,image,gpt-4o,bucket,bucket,False,none,2025-08-04T16:31:57.100794
+23,5712076074909696,RU,sun,zero_cot,image,gpt-4o,sun,sun,True,exact,2025-08-04T16:31:57.553025
+24,6107946884792320,US,tent,zero_cot,image,gpt-4o,tent,tent,True,exact,2025-08-04T16:31:58.038915
+25,4593716037681152,TW,tree,zero_cot,image,gpt-4o,tree,tree,True,exact,2025-08-04T16:31:58.755071
+26,5263944287518720,GB,vase,zero_cot,image,gpt-4o,vase with flower,vase with flower,True,phrase,2025-08-04T16:31:59.409969
+27,4846295376199680,US,zigzag,zero_cot,image,gpt-4o,mountain range,mountain range,False,none,2025-08-04T16:32:00.102270
