@@ -95,8 +95,9 @@ else:
     st.write(f"**Country:** {selected_data['countrycode']}")
     st.write(f"**Timestamp:** {selected_data['timestamp']}")
 
-    if selected_data["drawing_id"] in stroke_lookup:
-        stroke_data = stroke_lookup[selected_data["drawing_id"]]
+    # Render image from stroke data if available
+    if "raw_stroke" in selected_data:
+        stroke_data = json.loads(selected_data["raw_stroke"])
 
         def render_drawing_to_image(drawing, image_size=256, line_width=3):
             img = Image.new("L", (image_size, image_size), color=255)
@@ -110,5 +111,4 @@ else:
         img = render_drawing_to_image(stroke_data)
         st.image(img, caption=f"True: {selected_data['category']} | Predicted: {selected_data['prediction']}")
     else:
-        st.info("No stroke data found for this drawing_id.")
-
+        st.info("No stroke data available for rendering image.")
