@@ -7,7 +7,7 @@ st.title("🎨 QuickDraw GPT-4o Evaluation Results")
 csv_file = st.sidebar.selectbox(
     "Choose CSV Version",
     [
-        "image_v9_step200.csv",
+        "image_v10_step200.csv",
         "image_v8_step100.csv",
         "stroke_v9_step200.csv"
     ],
